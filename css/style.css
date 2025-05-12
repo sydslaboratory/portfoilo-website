@@ -23,26 +23,20 @@ body{
     justify-content: center;
     padding: 10px;
     position: absolute;
+    top: 0px;
 }
 ul{
-    height:58px;
-    width: 1047px;
-    background-color: rgb(97, 197, 233);
+    height: 50px;
+    width:1047px ;
+    background-color: rgb(89, 140, 170);
     display: flex;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
     padding: 0px;
     margin: 0px;
     position: fixed;
-    list-style-type:none ;
-    
-    
+    list-style-type: none;
 }
-#contact{
-    width: 700px;
-    height: 346px;
-    border: solid 1px rgb(124, 91, 255);
-    margin-top: 160px;
-}
+
 
 #box1{
  height: 732px;
@@ -51,4 +45,19 @@ ul{
  border: tomato;
  margin: 0px;
  text-align: center;
+}
+
+#experience{
+    width: 1024px;
+    height:598px;
+    background-color: darksalmon;
+    color: darkslateblue;
+    margin: 0%;
+    justify-content: center;
+}
+#About me{
+    width: 1024px;
+    height: 598px;
+    background-color: lightskyblue;
+    color:rgb(143, 166, 255)
 }
