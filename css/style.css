@@ -28,7 +28,8 @@ body{
 ul{
     height: 50px;
     width:1047px ;
-    background-color: rgb(89, 140, 170);
+    background-color: rgb(117, 197, 247);
+    color: rgb(17, 17, 124);
     display: flex;
     justify-content: space-evenly;
     padding: 0px;
@@ -42,7 +43,7 @@ ul{
  height: 732px;
  width: 1024px; 
  background-color: rgb(255, 255, 238);
- border: tomato;
+ border: rgba(233, 167, 53, 0.756);
  margin: 0px;
  text-align: center;
 }
@@ -50,14 +51,50 @@ ul{
 #experience{
     width: 1024px;
     height:598px;
-    background-color: darksalmon;
-    color: darkslateblue;
+    background-color: #e29f68;
+    color: rgb(18, 38, 87);
     margin: 0%;
     justify-content: center;
+    text-align: center;
 }
-#About me{
+
+#Achievements{
+ height:570px;
+ width: 1024px;
+}
+
+#skills{
+    width:1024px;
+    height: 798px;
+}
+
+
+#Contact{
     width: 1024px;
-    height: 598px;
+    height: 570px;
+    background-color:#e29f68 ;
+    color: rgb(18, 38, 87);
+    margin: 0%;
+    justify-content: center;
+    text-align: center;
+}
+#Aboutme{
+    width: 1024px;
+    height: 798px;
     background-color: lightskyblue;
     color:rgb(143, 166, 255)
 }
+
+/* <div id="skills">
+                 <h1>skills</h1>
+
+           <h3><p>Creative Thinking</p>
+            <p> HTML - CSS</p>
+            <p> TeamWork</p>
+            <p>Problem Solving</p>
+            <p> Adobe Photoshop</p>
+            <p>Adobe Illustrator</p>
+            <p>Adobe indesgin</p>
+            <p>Visual arts</p></h3>
+
+        </div> */
