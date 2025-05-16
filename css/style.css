@@ -21,7 +21,7 @@ body{
     background-color: lightgoldenrodyellow;
     display: flex;
     justify-content: center;
-    padding: 10px;
+    /* padding: 10px; */
     position: absolute;
     top: 0px;
 }
@@ -45,17 +45,9 @@ ul{
  background-color: rgb(255, 255, 238);
  border: rgba(233, 167, 53, 0.756);
  margin: 0px;
-
  text-align: center;
 }
 
-#boxhi{
-height: 607px;
-width: 1024px;
-background-color: aliceblue;
-color: darkblue;
-margin: 0%;
-}
 
 
 #experience{
@@ -71,7 +63,7 @@ margin: 0%;
 #Achievements{
  height: 507px;
  width: 1024px;
- background-color: cadetblue;
+ background-color: rgb(178, 177, 202);
  color: darkblue;
 }
 
@@ -91,7 +83,7 @@ margin: 0%;
     height: 407px;
     background-color: cornflowerblue;
     color: darkblue;
-
+    text-align: justify;
 }
 
 
@@ -104,4 +96,13 @@ margin: 0%;
     margin: 0%;
     justify-content: center;
     text-align: center;
+}
+
+#works{
+    width: 1024px;
+    height: 507px;
+}
+#box2{
+    width: 1024px
+
 }
