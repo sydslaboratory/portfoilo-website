@@ -40,17 +40,27 @@ ul{
 
 
 #box1{
- height: 732px;
+ height: 422px;
  width: 1024px; 
  background-color: rgb(255, 255, 238);
  border: rgba(233, 167, 53, 0.756);
  margin: 0px;
+
  text-align: center;
 }
 
+#boxhi{
+height: 607px;
+width: 1024px;
+background-color: aliceblue;
+color: darkblue;
+margin: 0%;
+}
+
+
 #experience{
     width: 1024px;
-    height:598px;
+    height:507px;
     background-color: #e29f68;
     color: rgb(18, 38, 87);
     margin: 0%;
@@ -59,42 +69,39 @@ ul{
 }
 
 #Achievements{
- height:570px;
+ height: 507px;
  width: 1024px;
-}
-
-#skills{
-    width:1024px;
-    height: 798px;
+ background-color: cadetblue;
+ color: darkblue;
 }
 
 
 #Contact{
     width: 1024px;
-    height: 570px;
+    height: 607px;
     background-color:#e29f68 ;
     color: rgb(18, 38, 87);
     margin: 0%;
     justify-content: center;
     text-align: center;
 }
-#Aboutme{
+
+#skills{
     width: 1024px;
-    height: 798px;
-    background-color: lightskyblue;
-    color:rgb(143, 166, 255)
+    height: 407px;
+    background-color: cornflowerblue;
+    color: darkblue;
+
 }
 
-/* <div id="skills">
-                 <h1>skills</h1>
 
-           <h3><p>Creative Thinking</p>
-            <p> HTML - CSS</p>
-            <p> TeamWork</p>
-            <p>Problem Solving</p>
-            <p> Adobe Photoshop</p>
-            <p>Adobe Illustrator</p>
-            <p>Adobe indesgin</p>
-            <p>Visual arts</p></h3>
 
-        </div> */
+#Aboutme{
+    width: 1024px;
+    height: 707px;
+    background-color: rgb(142, 191, 255);
+    color: rgb(18, 38, 87);
+    margin: 0%;
+    justify-content: center;
+    text-align: center;
+}
