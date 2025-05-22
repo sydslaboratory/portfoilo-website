@@ -16,9 +16,9 @@ body{
 
 #Header{
     
-    width: 960px;
+    width: 1024px;
     height: 379px;
-    background-color: lightgoldenrodyellow;
+    background-color:  (174,215,243);
     display: flex;
     justify-content: center;
     /* padding: 10px; */
@@ -27,7 +27,7 @@ body{
 }
 ul{
     height: 50px;
-    width:1047px ;
+    width: 1024px;
     background-color: rgb(117, 197, 247);
     color: rgb(17, 17, 124);
     display: flex;
@@ -71,7 +71,7 @@ ul{
 #Contact{
     width: 1024px;
     height: 607px;
-    background-color:#e29f68 ;
+  background-color: blue;
     color: rgb(18, 38, 87);
     margin: 0%;
     justify-content: center;
@@ -90,7 +90,7 @@ ul{
 
 #Aboutme{
     width: 1024px;
-    height: 707px;
+    height: 507px;
     background-color: rgb(142, 191, 255);
     color: rgb(18, 38, 87);
     margin: 0%;
@@ -112,3 +112,6 @@ ul{
     justify-content: center;
 
 }
+
+
+   
