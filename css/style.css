@@ -18,7 +18,7 @@ body{
     
     width: 1024px;
     height: 379px;
-    background-color:  (174,215,243);
+   background-color: rgb(142, 191, 255);
     display: flex;
     justify-content: center;
     /* padding: 10px; */
@@ -113,5 +113,32 @@ ul{
 
 }
 
+#Contact{
+    height: 507px;
+    width: 1024px;
+    background-color: sandybrown;
+    color: darkblue;
+    margin: 0px;
+   text-align: center;
+}
 
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
    
