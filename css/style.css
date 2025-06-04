@@ -64,7 +64,7 @@ ul{
 #Achievements{
  height: 507px;
  width: 1024px;
- background-color: rgb(178, 177, 202);
+ background-color:#FFD69F ;
  color: darkblue;
 }
 
@@ -81,12 +81,34 @@ ul{
 
 #skills{
     width: 1024px;
-    height: 407px;
+    height: 507px;
     background-color: cornflowerblue;
     color: darkblue;
     text-align: justify;
+    
 }
 
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    color: darkblue;
+    flex-direction: row-reverse;
+    line-height: 1.7;
+    height: 507px; 
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 
 #Aboutme{
@@ -97,7 +119,9 @@ ul{
     margin: 0%;
     justify-content: center;
     text-align: center;
+    
 }
+
 
 #works{
     width: 1024px;
@@ -106,18 +130,18 @@ ul{
 #box2{
     height: 507px;
     width: 1024px;
-    background-color: rgba(255, 244, 161, 0.756);
+    background-color: rgba(255, 255, 255, 0.756);
     color: darkblue;
     margin: 0px;
     text-align: center;
-    display: flex;
-    flex-direction: row;
+    
+    
 }
 
 #Contact{
     height: 507px;
     width: 1024px;
-    background-color: sandybrown;
+    background-color: rgb(148, 74, 10);
     color: darkblue;
     margin: 0px;
    text-align: center;
@@ -165,4 +189,10 @@ ul{
     transition-duration: .5s;
     background-color: #e29f68;
     color: thistle;
+   }
+
+   #hi{
+    height: 507px;
+   width: 1024px;
+    background-color: rgba(159, 68, 68, 0.756);
    }
