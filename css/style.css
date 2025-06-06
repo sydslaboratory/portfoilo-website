@@ -4,8 +4,8 @@ body{
 }
 
 #main_container{
-    width: 1024px;
-    height: 5052px;
+    width: 1090px;
+    height: 5072px;
     margin: 0px auto;
     background-color: rgb(171, 220, 240);
     border:1px solid black ;
@@ -25,12 +25,10 @@ body{
     position: absolute;
     top: 0px;
 }
-
-
 ul{
     height: 50px;
     width: 1024px;
-    background-color: rgb(117, 197, 247);
+    background-color: rgb(97, 194, 255);
     color: rgb(17, 17, 124);
     display: flex;
     justify-content: space-evenly;
@@ -47,6 +45,7 @@ ul{
  background-color: rgb(255, 255, 238);
  border: rgba(233, 167, 53, 0.756);
  margin: 0px;
+ text-align: center;
 }
 
 
@@ -59,6 +58,7 @@ ul{
     margin: 0%;
     justify-content: center;
     flex-direction: column-reverse
+    text
     
 }
 
@@ -78,7 +78,6 @@ ul{
     margin: 0%;
     justify-content: center;
     text-align: center;
-    font-family: ;
 }
 
 #skills{
@@ -87,9 +86,9 @@ ul{
     background-color: cornflowerblue;
     color: darkblue;
     text-align: justify;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+  line-height: 6pxs; 
 }
-
 
 * {
     box-sizing: border-box;
@@ -196,12 +195,9 @@ ul{
    }
 
    #hi{
-    height: 999px;
-   width: 1024px;
+    height: 1499px;5073
+   width: 1054px;
     background-color: rgb(255, 252, 163);
     color: darkblue;
-    text-align: center;
+    
    }
-
-
-   
